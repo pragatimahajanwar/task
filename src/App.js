@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+// import Carapi from './Carapi';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Productapi from './Productapi';
+import Axiosget from './Axiosget';
+import Clock from './Clock';
+import Carlist from './Carlist';
+// import CarSearch from './Search';
+import CarSearch from './Carsearch';
+import Data from './Data';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Carapi/> */}
+      {/* <Productapi/> */}
+      {/* <Axiosget/> */}
+      {/* <Clock/> */}
+       {/* <Carlist/>  */}
+      {/* <CarSearch/> */}
+     {/* <CarSearch/> */}
+     <Data/>
     </div>
   );
 }
